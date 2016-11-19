@@ -1,0 +1,327 @@
+@import "normalize";
+@import "layout";
+
+$primary-font: "Lato", sans-serif;
+$heading-font: "Raleway", sans-serif;
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,700|Raleway:400,700');
+
+body{
+	font: 400 16px/1.5 "Lato", sans-serif;
+}
+
+
+
+/* Layout */
+.ba-container {
+	padding-left: 15px;
+	padding-right: 15px;
+	max-width: 1170px;
+}
+
+
+
+/* Typography */
+h1,h2,h3,h4,h5,h6 {
+	text-transform: uppercase;
+	text-align: center;
+}
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+	border-width: 3px;
+	border-color:  #222222;
+	border-style: solid;
+	width: 364px;
+	height: 54px;
+	font-family: $primary-font;
+	color:  #222222;
+	font-size: 24px;
+	font-weight: 400;
+	text-transform: uppercase;
+	background: #FFF;
+	text-align: center;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+	background: #034A6A;
+	color: #fff;
+}
+input {
+	border: none;
+	border-bottom: 1px solid #afafaf;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+	border: none;
+	border-bottom: 1px solid #afafaf;
+}
+
+.ba-header {
+	background: #02496A url("../img/firstbg.jpg") 50% no-repeat;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+}
+.ba-logo {
+	float: left;
+	margin-top: 50px;
+}
+
+.ba-menu {
+	list-style: none;
+	padding: 0;
+	float: right;
+	height: 90px;
+    line-height: 90px;
+	a {
+	font-family: $primary-font;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	margin-top: 50px;
+	margin-right: 45px;
+	}
+	a:hover {
+	color: #07A8F2;
+	}
+	li {
+	float: right;
+	}
+}
+.ba-creative {
+	margin-top: 254px;
+	margin-bottom: 255px;
+}
+.ba-pages-title {
+	font-family: $heading-font;
+	color:  #ffffff;
+	font-size: 48px;
+	font-weight: 700;
+
+}
+.ba-subtitles {
+	font-family: $primary-font;
+	color:  #fffefe;
+	font-size: 22px;
+	font-weight: 400;
+}
+.ba-scroll {
+	width: 92px;
+	height: 92px;
+	margin-bottom: 45px;
+}
+.ba-ourservices {
+	padding: 116px;
+	padding-bottom: 119px;
+	h2 {
+	font-family: $heading-font;
+	color:  #222222;
+	font-size: 35px;
+	font-weight: 700;
+	}
+	h2:after {
+	content: "";
+	background-color:  #222222;
+	width: 86px;
+	height: 2px;
+	}
+}
+.ba-row {
+	text-align: center;
+	font-family: $primary-font;
+	color:  #222222;
+	font-size: 24px;
+	font-weight: 400;
+	padding-bottom: 119px;
+	p {
+	font-family: $primary-font;
+	color:  #222222;
+	font-size: 16px;
+	font-weight: 400;
+	}
+}
+
+.ba-app-design {
+	display: inline-block;
+	width: 33%;
+}
+.ba-responsive {
+	display: inline-block;
+	width: 33%;
+}
+.ba-pixel-perfect {
+	display: inline-block;
+	width: 33%;
+}
+
+.ba-phone {
+	background: #414141 url("../img/secondbg.jpg") 50% no-repeat;
+	background-size: cover;
+	padding-bottom: 115px;
+}
+.ba-content {
+	float: left;
+	width: 50%;
+	margin-top: 173px;
+	h3 {
+	font-family: $primary-font;
+	color:  #ffffff;
+	font-size: 45px;
+	font-weight: 400;
+	}
+	p {
+	font-family: $primary-font;
+	color:  #ffffff;
+	font-size: 22px;
+	font-weight: 100;
+	}
+	a {
+	font-family: Lato;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	}
+}
+.ba-image {
+	float: right;
+	width: 50%;
+	margin-top: 75px;
+	img {
+	margin-left: 245px;
+	}
+}
+.ba-ourwork {
+	padding: 118px 0 79px;
+	text-align: center;
+	p {
+	margin-bottom: 165px;
+	}
+}
+
+.ba-planet {
+	float: left;
+	width: 33.33%;
+}
+.ba-airlines {
+	float: left;
+	width: 33.33%;
+}
+.ba-trimp {
+	float: left;
+	width: 33.33%;
+}
+
+.ba-discover {
+	display: inline-block;
+	position: relative;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+	overflow: hidden;
+}
+.ba-discover .ba-discover__overlay:hover {
+	opacity: 1;
+
+
+
+.ba-discover__overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: #3F3F3F;
+	opacity: 0;
+	transition: .3s ease-in;
+}
+
+.ba-discover__text {
+	position: absolute;
+	width: 100%;
+	left: 50%;
+	bottom: 50%;
+	transform: translateY(-50%);
+	h3 {
+	margin: 0;
+	font-family: $primary-font;
+	font-size: 22px;
+	color:  #ffffff;
+	font-weight: 400;
+	}
+}
+.ba-touch {
+	background: #0D1112 url("../img/thirtbg.jpg") 50% no-repeat;
+	background-size: cover;
+	h3 {
+	font-family: $heading-font;
+	color:  #ffffff;
+	font-size: 35px;
+	font-weight: 700;
+	}
+}
+
+
+.ba-socials {
+		a {
+		display: inline-block;
+		text-align: center;
+		padding: 5px;
+		color: #fff;
+		&:hover {
+			color: #009DF5;
+		}
+		svg {
+			display: block;
+			height: 20px;
+			width: 20px;
+			fill: white;
+			text-align: center;
+		}
+	}
+}
+
+.ba-form {
+	&__name {
+	float: right;
+	width: 50%;
+	}
+	&__e-mail {
+	float: left;
+	width: 50%;
+	}
+}

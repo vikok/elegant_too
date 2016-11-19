@@ -1,0 +1,4 @@
+[Sat Nov 19 2016 10:43:08 GMT+0200 (Финляндия (зима))] layer "firstbg.img": Unsupported extension: img
+[Sat Nov 19 2016 10:44:35 GMT+0200 (Финляндия (зима))] layer "secondbg.img": Unsupported extension: img
+[Sat Nov 19 2016 10:46:39 GMT+0200 (Финляндия (зима))] layer "Link 1. Attribute as Freepik from Flaticon.com": Unsupported extension: com
+[Sat Nov 19 2016 10:48:20 GMT+0200 (Финляндия (зима))] layer "thirtbg.img": Unsupported extension: img
