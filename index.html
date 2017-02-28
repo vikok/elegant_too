@@ -18,9 +18,9 @@
 	<![endif]-->
 </head>
 <body>
-<!-- BEGIN ba-agency  -->
-<div class="ba-agency">
 	<header class="ba-header">
+	<!-- BEGIN ba-agency  -->
+	<div class="ba-agency">
 		<!-- BEGIN ba-container  -->
 		<div class="ba-container cf">
 		    <a href="#" class="ba-logo">
@@ -30,26 +30,26 @@
 					<ul class="ba-menu">
 						<li><a href="#">Hello</a></li>
 						<li><a href="#">Services</a></li>
-						<li><a href="#">AboutUs</a></li>
+						<li><a href="#">About Us</a></li>
 						<li><a href="#">OurWork</a></li>
-						<li><a href="#">ContactUs</a></li>
+						<li><a href="#">Contact Us</a></li>
 					</ul>
 				</nav>
 			<section class="ba-creative">
-		<h1 class="ba-pages-title">we’re creative agency</h1>
+		<h1 class="ba-pages-title ba-title ba-services__title">we’re creative agency</h1>
 		<p class="ba-subtitles">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br> Aenean commodo ligula eget dolor. Aenean massa.</p>
 		</section>
 		<a href="#ourservices" class="ba-scroll"><img src="img/down.svg" alt="down"></a>
 		</div>
 		<!-- END ba-container -->
-	</header>
-</div>
-<!-- END ba-agency -->
+	</div>
+	<!-- END ba-agency -->
+</header>
 	<main>
-		<section id="ourservices" class="ourservices">
+		<section id="ourservices" class="ba-ourservices">
 			<!-- BEGIN ba-container  -->
 			<div class="ba-container">
-				<h2>our services</h2>
+				<h2 class="ba-title ba-title--black ba-services__title">our services</h2>
 				<!-- BEGIN ba-row  -->
 				<div class="ba-row cf">
 				    <!-- BEGIN ba-app-design  -->
@@ -81,110 +81,85 @@
 			<!-- END ba-container -->
 		</section>
 		<section class="ba-phone">
-			<!-- BEGIN ba-container  -->
-			<div class="ba-container cf">
-			<!-- BEGIN ba-content  -->
-			<div class="ba-content">
-			    <h3>dolore magna aliqua</h3>
-			    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br>sed do eiusmod tempor incididunt ut labore<br> et dolore magna aliqua.</p>
-			    <a href="#">more</a>
-			</div>
-			<!-- END ba-content -->
-			   <!-- BEGIN ba-image  -->
-			   <div class="ba-image">
+				<div class="ba-container cf">
+				<!-- BEGIN ba-content  -->
+				<div class="ba-content ba-float-left">
+					<h3>dolore magna aliqua</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br>
+					sed do eiusmod tempor incididunt ut labore<br>et dolore magna aliqua.
+					</p>
+					<a href="#">more</a>
+				</div>
+				<!-- END ba-content -->
+				<!-- BEGIN ba-image  -->
+			   <div class="ba-image ba-float-right">
 			       <img src="img/phone.png" alt="iphone">
 			   </div>
 			   <!-- END ba-image -->
-			</div>
-			<!-- END ba-container -->
+				</div>
 		</section>
 
-		<section class="ba-ourwork">
-			<!-- BEGIN ba-container  -->
+		<section class="ba-work">
 			<div class="ba-container">
-			    <h3>our work</h3>
-			    <!-- BEGIN ba-row-too  -->
-			    <div class="ba-row-too cf">
-			    <!-- BEGIN ba-planet  -->
-			    <div class="ba-planet">
-			        <a class="ba-discover" href="#">
-		    			<img src="img/planet.png" alt="planet">
-		    				<div class="ba-discover__overlay">
-		    					<h3>kinderen planet</h3>
-
-		    				</div>
-		    		</a>
-			    </div>
-			    <!-- END ba-planet -->
-
-			      <!-- BEGIN ba-airlines  -->
-			      <div class="ba-airlines">
-			          <a class="ba-discover" href="#">
-		    			<img src="img/airlines.png" alt="air">
-		    				<div class="ba-discover__overlay">
-		    					<h3>kinderen planet</h3>
-
-		    				</div>
-		    		</a>
-			      </div>
-			      <!-- END ba-airlines -->
-
-			      <!-- BEGIN ba-trimp  -->
-			      <div class="ba-trimp">
-			          <a class="ba-discover" href="#">
-		    			<img src="img/trimp.png" alt="trimp">
-		    				<div class="ba-discover__overlay">
-		    					<h3>kinderen planet</h3>
-
-		    				</div>
-		    		</a>
-			      </div>
-			      <!-- END ba-trimp -->
-			    </div>
-			    <!-- END ba-row-too -->
+				<h2 class="ba-work__title ba-title ba-title--black ba-services__title">our work</h2>
+					<div class="ba-row">
+						<div class="ba-width-1-3">
+							<a class="ba-work__img" href="#">
+								<img src="img/planet.png" alt="">
+								<div class="ba-work__overlay">
+									<h3>kinderen planet</h3>
+								</div>
+							</a>
+						</div>
+						<div class="ba-width-1-3">
+							<a class="ba-work__img" href="#">
+								<img src="img/airlines.png" alt="">
+								<div class="ba-work__overlay">
+									<h3>jetindus airlines</h3>
+								</div>
+							</a>
+						</div>
+						<div class="ba-width-1-3">
+							<a class="ba-work__img" href="#">
+								<img src="img/trimp.png" alt="">
+								<div class="ba-work__overlay">
+									<h3>trimplement</h3>
+								</div>
+							</a>
+						</div>
+					</div>
+				<button class="ba-button ba-button__work">more</button>
 			</div>
-			<!-- END ba-container -->
-			<button class="ba-button" type="submit">more</button>
 		</section>
 
-		<section class="ba-touch">
-			<!-- BEGIN ba-container  -->
-			<div class="ba-container">
-			    <h3>get in touch</h3>
-			    <!-- BEGIN ba-socials  -->
-			    <div class="ba-socials">
-			        <a href="#">
-			        	<svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
-			        </a>
-			        <a href="#">
-			        	<svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
-			        </a>
-			        <a href="#">
-			        	<svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
-			        </a>
-			        <a href="#">
-			        	<svg class="icon icon-vimeo"><use xlink:href="#icon-vimeo"></use></svg>
-			        </a>
-			        <a href="#">
-			        	<svg class="icon icon-behance"><use xlink:href="#icon-behance"></use></svg>
-			        </a>
-			    </div>
-			    <!-- END ba-socials -->
+			<section class="ba-contact">
+				<div class="ba-container">
+					<h2 class="ba-title ba-services__title">
+						get in touch
+					</h2>
+					<div class="ba-socials">
+						<a class="ba-icon-twitter" href="#"></a>
+						<a class="ba-icon-facebook" href="#"></a>
+						<a class="ba-icon-link" href="#"></a>
+						<a class="ba-icon-v" href="#"></a>
+						<a class="ba-icon-be" href="#"></a>
+					</div>
 
-			<form>
-
-		    	<div class="ba-form__main">
-		    			<div class="cf">
-		    	    <input class="ba-form__name" type="text" name="Name" placeholder="Name" required>
-		    	    <input class="ba-form__e-mail" type="email" name="email" placeholder="E-mail" required>
-		    	   			 </div>
-		    				 <!-- END cf -->
-		    		<textarea class="ba-form__area" placeholder="Message" required></textarea>
-		    	</div>
-		    </form>
-		</div>
-		<!-- END ba-container -->
-		</section>
+					<form action="#" method="post" class="ba-contact__form" class="cf">
+						<div class="ba-row">
+							<div class="ba-width-1-2">
+								<input class="ba-name" type="text" name="name" placeholder="Name" required>
+							</div>
+							<div class="ba-width-1-2">
+								<input class="ba-email" type="email" name="email" placeholder="Email" required>
+							</div>
+						</div>
+						<input class="ba-message" type="text" name="message" placeholder="Message" required>
+						<div class="ba-text-center">
+							<button class="ba-button ba-contact__button" type="submit">SEND</button>
+						</div>
+					</form>
+				</section>
 
 
 	</main>
